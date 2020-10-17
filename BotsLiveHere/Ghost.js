@@ -128,7 +128,6 @@ function openPack(msg)
             var final = imgurl.concat(card,pngend)
             msg.reply("You opened:", {files: [final]}); 
         }
-        msg.reply(chance) 
 }
 //non ! commands, Ghost, ghost, !Ghost, !ghost
 
