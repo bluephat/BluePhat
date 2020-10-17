@@ -96,7 +96,7 @@ bot.on('message', msg =>{
 
     }
 })
-
+//test
 function openPack(msg)
 {
     var chance = Math.random()
