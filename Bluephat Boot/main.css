@@ -1,0 +1,13 @@
+#header{
+    font-family:'Concert One', cursive;text-transform:uppercase;font-size:30px;background-color: #2199CD;
+}
+#header:after{content:"";clear:both;display:block}
+
+body{line-height:1.5;font-family:'Concert One', cursive;text-transform:uppercase;font-size:30px;color:#fff}
+
+
+
+
+
+
+
