@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Container, Dropdown, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './NavMenu.css';
 
@@ -24,17 +24,17 @@ export class NavMenu extends Component {
   render () {
     return (
       <header>
-        <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
+        <Navbar className="navbar navbar-expand-lg navbar-light" style={{backgroundColor:"#2199CD"}}>
           <Container>
             <NavbarBrand tag={Link} to="/">Accounting Toolbox</NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
               <ul className="navbar-nav flex-grow">
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/accountportal">Acount Portal</NavLink>
+                <NavLink tag={Link} className="text-dark" to="/accountportal">Acount Portal</NavLink>
                 </NavItem>
                 <NavItem>
-                   <NavLink tag={Link} className="text-dark" to="/admininfo">Account Administration</NavLink>
+                   <Dropdown tag={Link} className="text-dark" to="/admininfo">Account Administration</Dropdown>
                 </NavItem>
 
               </ul>
