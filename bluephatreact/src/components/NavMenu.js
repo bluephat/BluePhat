@@ -43,7 +43,7 @@ export class NavMenu extends Component {
             <NavbarBrand tag={Link} to="/"><img src={logo} alt="headerlogo" /></NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
-            <Form className="form-inline my-2 my-lg-0 ml-auto">
+              <Form className="form-inline my-2 my-lg-0 ml-auto">
                 <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
                 <button className="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
               </Form>
