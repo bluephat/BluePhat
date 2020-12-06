@@ -32,9 +32,7 @@ export class NavMenu extends Component {
       collapsed: !this.state.collapsed
     });
   }
-
   
-
   render () {
     return (
       <header>
