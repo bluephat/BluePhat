@@ -61,11 +61,11 @@ export class NavMenu extends Component {
                   <UncontrolledDropdown>
                     <DropdownToggle tag="a" className="nav-link" caret> Clans </DropdownToggle>
                       <DropdownMenu>
-                        <DropdownItem header>Header</DropdownItem>
-                        <DropdownItem disabled>Action</DropdownItem>
+                        <DropdownItem header>Header Action</DropdownItem>
+                        <DropdownItem disabled>Disabled Action</DropdownItem>
                         <DropdownItem>Another Action</DropdownItem>
                           <DropdownItem divider />
-                          <DropdownItem>Another Action</DropdownItem>
+                          <DropdownItem>Divided Action</DropdownItem>
                       </DropdownMenu>
                   </UncontrolledDropdown>
                 </NavItem>
