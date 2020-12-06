@@ -11,6 +11,9 @@ footer{
   font-size: 20px; color: black; background-color: #2199CD;
 }
 
+#mainSlides {
+  padding-left: 0px;
+}
 
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
