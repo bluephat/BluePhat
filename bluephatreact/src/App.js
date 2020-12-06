@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { NavMenu } from './components/NavMenu';
+import Home from './components/Home';
+
 
 
 export default class App extends Component {
@@ -9,7 +10,7 @@ export default class App extends Component {
   render(){
     return(
       <div>
-        <NavMenu />
+        <Home />
       </div>
     );
   }
